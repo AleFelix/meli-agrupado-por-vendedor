@@ -5,7 +5,7 @@ let agregarInput = function() {
         '<div class="input-group-prepend">' + 
         '<span class="input-group-text">' + placeholder + '</span>' +
         '</div>' +
-        '<input type="text" class="form-control input-producto" placeholder="' + placeholder + '" aria-label="' + placeholder + '">' +
+        '<input type="text" class="form-control input-producto" placeholder="' + placeholder + '" aria-label="' + placeholder + '" required>' +
         '</div>');
 };
 let quitarInput = function() {
